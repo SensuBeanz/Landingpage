@@ -24,11 +24,25 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 50px;
+    display: flex;
 }
 
 .topbartext {
     display: flex;
     flex-direction: column;
+}
+
+.imageplacement {
+    display: flex;
+}
+
+img {
+    width: auto;
+    max-height: 300px;
+    max-width: 50vw;
+    margin: 20px;
+    display: flex;
+    flex: 0;
 }
 
 .signup {
@@ -76,10 +90,16 @@ ul {
 .quotebar {
     background-color: #E5E7EB;
     min-height: 200px;
-    padding: 50px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.quote{
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .actionbar {
@@ -93,6 +113,10 @@ ul {
     justify-content: space-between;
     align-items: center;
     color: white;
+}
+
+.bluebartext {
+    padding-left: 60px;
 }
 
 .bottomsignup {
@@ -113,3 +137,4 @@ strong{
     justify-content: flex-end;
     font-weight: 800;
 }
+
