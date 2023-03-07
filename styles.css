@@ -78,8 +78,8 @@ ul {
     min-height: 200px;
     padding: 50px;
     display: flex;
-    justify-items: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .actionbar {
@@ -106,4 +106,10 @@ ul {
 
 strong{
     font-size: 24px;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
 }
